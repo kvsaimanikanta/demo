@@ -15,6 +15,8 @@ public class Sample1 {
 		driver.navigate().to(s);
 		Thread.sleep(5000);
 		driver.close();
+		
+		System.out.println("hello");
 	}
 
 }
